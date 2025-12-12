@@ -1,0 +1,109 @@
+    1  clear
+    2  cd /c/Users/user/Desktop
+    3  mkdir /c/Users/user/Desktop_GIT
+    4  cd Git
+    5  git config --global user.name "Ana Heo"
+    6  mkdir /c/Users/user/Desktop_GIT
+    7  mkdir /c/Users/user/Desktop
+    8  mkdir /c/Users/user/Desktop/GIT
+    9  pwd
+   10  git config --global user.name "Ana Heo"
+   11  git config --global user.email nastysha601310@gmail.com
+   12  git clone https://github.com/ana-heo/HW_10.git
+   13  git status
+   14  cd HW_10
+   15  git status
+   16  cd Git
+   17  pwd
+   18  copy HW_10 [200~/c/Users/user/Desktop/Git/HW_10
+   19  copy HW_10 /c/Users/user/Desktop/Git/HW_10
+   20  cp HW_10 /c/Users/user/Desktop/Git/HW_10
+   21  cp /c/Users/user/Desktop/Git
+   22  cd /c/Users/user/Desktop/Git
+   23  cp HW_10 /c/Users/user/Desktop/Git/HW_10
+   24  cp HW_10 new /c/Users/user/Desktop/Git/HW_10
+   25  cp HW_10 /c/Users/user/Desktop/Git/HW_10/
+   26  cp HW_10 /c/Users/user/Downloads/Git/HW_10
+   27  cd HW_10
+   28  cp HW_10 /c/Users/user/Downloads/Git/HW_10
+   29  ls HW_10
+   30  ls
+   31  cd ..
+   32  ls
+   33  cp HW_10 /c/Users/user/Downloads/Git
+   34  cp HW_10 /c/Users/user/Desktop
+   35  cp HW_10 /c/Users/user/Downloads/Git
+   36  cp HW_10 /c/Users/user/Downloads
+   37  clear
+   38  cd HW_10
+   39  touch text_ignore.txt
+   40  git status
+   41  git add text_ignore.txt
+   42  git status
+   43  git commit -m "New file created"
+   44  git status
+   45  touch main_test.txt
+   46  git add main_test.txt
+   47  git status
+   48  git commit -m "Main test file was created"
+   49  git log
+   50  git branch
+   51  git checkout -b
+   52  git checkout -b new_branch
+   53  git branch
+   54  touch develop_test.txt
+   55  git add develop_test.txt
+   56  git commit -m "Additional develop test created"
+   57  nano develop_test.txt
+   58  git status
+   59  git add develop_test.txt
+   60  git commit -a develop_test.txt
+   61  git commit -m develop_test.txt
+   62  checkout main
+   63  git checkout main
+   64  git checkout new_branch
+   65  git branch -m develop
+   66  git checkout main
+   67  git merge develop
+   68  git log
+   69  git status
+   70  command_list.csv
+   71  history >command_list.csv
+   72  git add command_list.csv
+   73  git commit command_list.csv
+   74  git config user.name "Ana Heo"
+   75  git config --global user.name "Ana Heo"
+   76  git config --global user.email nastysha601310@gmail.com
+   77  git clone https://github.com/ana-heo/HW_10.git
+   78  cd HW_10
+   79  touch text_ignore.txt
+   80  nano .gitignore
+   81  git status
+   82  git add .gitignore
+   83  git commit .gitignore
+   84  git commit -m "text ingnore file added"
+   85  git status
+   86  cd /c/Users/user/Desktop/GIT/HW_10
+   87  git status
+   88  git commit -m "text ignore added"
+   89  rm -f .git/index.lock
+   90  git commit -m "text ignore added"
+   91  touch main_test.txt
+   92  git add main_test.txt
+   93  git commit -m "Main test file created"
+   94  git checkout develop
+   95  git branch develop
+   96  git checkout develop
+   97  touch develop_test.txt
+   98  git add develop_test.txt
+   99  git commit -m "Develop test file created"
+  100  nano develop_test.txt
+  101  git status
+  102  git add develop_test.txt
+  103  git commit -m "chnage added"
+  104  checkout main 
+  105  git checkout main
+  106  merge develop
+  107  git merge develop
+  108  git log
+  109  history >command_list.csv
